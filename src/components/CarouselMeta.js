@@ -21,8 +21,7 @@ function CarouselMeta() {
               <img className="card-title1" src={Metamask1} alt="Prérequis à l'utilisation de la blockchain" />
               <div style={{position:"absolute", top:"50px", left:"550px", width:"600px", height:"400px", fontSize:"200%"}}>
                 <p><b>Avant d'utiliser la blockchain, il nous faudra palier au coût généré par cette interaction.
-                   Pour cela nous allons utiliser ce qu'on appelle un portefeuille numérique (wallet).</b></p>
-                
+                   Pour cela nous allons utiliser ce qu'on appelle un portefeuille numérique (wallet).</b></p>                
                 <p><b>Ce wallet nous permettra donc d'y stocker une monnaie numérique (crypto monnaie) avec laquelle 
                   nous pourrons nous affranchir de la compensation nécessaire à l'utilisation du réseau Ethereum.</b></p>
               </div> 
@@ -31,19 +30,34 @@ function CarouselMeta() {
           <div style={{position:"relative"}}>
               <img className="card-title2" src={Metamask2} alt="Le wallet MetaMask"/>
               <div style={{position:"absolute", top:"150px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
-                <p><b>Pour nos premiers pas dans la blockchain, nous utiliserons le wallet sécurisé et respectueux des données privées : MetaMask.</b></p>
-                
-                <p><b>Nous reviendrons en détail sur son principe de fonctionnement plustard. Installons le sans plus attendre.</b></p>
+                <p><b>Pour nos premiers pas dans la blockchain, nous utiliserons le wallet sécurisé et respectueux des données privées : MetaMask.</b></p>                
+                <p><b>Nous reviendrons en détail sur son principe de fonctionnement plus tard. Installons le sans plus attendre.</b></p>
               </div>
           </div>
 
           <div style={{position:"relative"}}>
               <img className="card-title4" src={Metamask3} alt="Se procurer des ETH de test"/>
-              <div style={{position:"absolute", top:"190px", left:"675px", width:"525px", height:"400px", fontSize:"200%"}}>
-                <p><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
-
-                <div>
-                  <img src={browser1} alt="icône de firefox"/>
+              <div style={{position:"absolute", top:"30px", left:"220px", width:"525px", height:"400px", fontSize:"300%"}}>
+                <p className="pb-5"><b>METAMASK</b></p>
+              </div>
+              <div style={{position:"absolute", top:"100px", left:"675px", width:"525px", height:"400px", fontSize:"200%"}}>
+                <p className="pb-5"><b>Ce qui est génial avec MetaMask c'est qu'il s'intègre dans votre navigateur web très facilement.</b></p>
+              </div>
+              <div style={{position:"absolute", top:"300px", left:"675px", width:"525px", height:"400px", fontSize:"200%"}}>
+                <p className="pb-4"><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
+                <div className="container py-4">
+                  <a href="https://addons.mozilla.org/fr/firefox/addon/ether-metamask/" target="_blank" rel="noreferrer">
+                    <img src={browser1} alt="icône de firefox" className="mx-2" />
+                  </a>
+                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
+                    <img src={browser2} alt="icône de crome" />
+                  </a>                    
+                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
+                    <img src={browser3} alt="icône de brave" width="105px" className="mx-2" />
+                  </a>                      
+                  <a href="https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=fr" target="_blank" rel="noreferrer">
+                    <img src={browser4} alt="icône de edge" width="100px" />
+                  </a>
                 </div>
             </div>
           </div>
@@ -51,9 +65,8 @@ function CarouselMeta() {
           <div style={{position:"relative"}}>
               <img className="card-title4" src={Metamask4} alt="Se procurer des ETH de test"/>
               <div style={{position:"absolute", top:"190px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
-                <p><b>Ce qui est génial avec MetaMask c'est qu'il s'intègre dans votre navigateur web très facilement.</b></p>
-
-                <p><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
+                <p><b>Partie à venir</b></p>
+                <p><b>Partie à venir</b></p>
             </div>
           </div>
 
