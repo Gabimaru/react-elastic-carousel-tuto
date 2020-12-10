@@ -19,59 +19,56 @@ const CarouselMeta = () => {
     <div className="container">
         <Carousel >
 {/*Paragraphe de code de la 1ère slide*/}
-          <div style={{position:"relative"}}>
+          <div style={{position:"relative", fontSize:"200%"}}>
               <img className="card-title1 img-fluid" src={Metamask1} alt="Prérequis à l'utilisation de la blockchain" />
-              <div style={{position:"absolute", top:"50px", left:"550px", width:"600px", height:"400px", fontSize:"200%"}}>
-                <p><b>Avant d'utiliser la blockchain, il nous faudra palier au coût généré par cette interaction.
+              <div style={{position:"absolute", top:"8%", left:"46%", height:"100%", overflow:"auto"}}>
+                <p className="me-5"><b>Avant d'utiliser la blockchain, il nous faudra palier au coût généré par cette interaction.
                    Pour cela nous allons utiliser ce qu'on appelle un portefeuille numérique (wallet).</b></p>                
-                <p><b>Ce wallet nous permettra donc d'y stocker une monnaie numérique (crypto monnaie) avec laquelle 
+                <p className="me-5"><b>Ce wallet nous permettra donc d'y stocker une monnaie numérique (crypto monnaie) avec laquelle 
                   nous pourrons nous affranchir de la compensation nécessaire à l'utilisation du réseau Ethereum.</b></p>
               </div> 
           </div>
 
 {/*Paragraphe de code de la 2ème slide*/}
-          <div style={{position:"relative"}}>
+          <div style={{position:"relative", fontSize:"200%"}}>
               <img className="card-title2 img-fluid" src={Metamask2} alt="Le wallet MetaMask"/>
-              <div style={{position:"absolute", top:"150px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
+              <div style={{position:"absolute", top:"23%", left:"56%", height:"100%", overflow:"auto"}}>
                 <p><b>Pour nos premiers pas dans la blockchain, nous utiliserons le wallet : MetaMask.</b></p>                
                 <p><b>Nous reviendrons en détail sur son principe de fonctionnement plus tard. Installons le sans plus attendre.</b></p>
               </div>
           </div>
 
 {/*Paragraphe de code de la 3ème slide*/}
-          <div style={{position:"relative"}}>
+          <div style={{position:"relative", fontSize:"200%"}}>
               <img className="card-title3 img-fluid" src={Metamask3} alt="Se procurer des ETH de test"/>
-              <div style={{position:"absolute", top:"30px", left:"220px", width:"525px", height:"400px", fontSize:"300%"}}>
-                <p className="pb-5"><b>METAMASK</b></p>
-              </div>
-              <div style={{position:"absolute", top:"150px", left:"675px", width:"525px", height:"400px", fontSize:"200%"}}>
+              <div style={{position:"absolute", top:"25%", left:"59%", height:"100%", overflow:"auto"}}>
                 <p><b>MetaMask s'intègre dans votre navigateur web très facilement.</b></p>
-              </div>
-              <div style={{position:"absolute", top:"300px", left:"675px", width:"525px", height:"400px", fontSize:"200%"}}>
+
                 <p className="pb-4"><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
+
 {/*Paragraphe des icônes cliquables de la 3ème slide*/}                
-                <div className="container py-4">
-                  <a href="https://addons.mozilla.org/fr/firefox/addon/ether-metamask/" target="_blank" rel="noreferrer">
-                    <img src={browser1} alt="icône de firefox" className="mx-2" />
+                <div className="container">
+                  <a href="https://addons.mozilla.org/fr/firefox/addon/ether-metamask/" target="_blank" rel="noreferrer noopener">
+                    <img className="mx-1" src={browser1} alt="icône de firefox" />
                   </a>
-                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser2} alt="icône de crome" />
+                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer noopener">
+                    <img className="mx-1" src={browser2} alt="icône de crome" />
                   </a>                    
-                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser3} alt="icône de brave" width="105px" className="mx-2" />
+                  <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer noopener">
+                    <img className="mx-1" src={browser3} alt="icône de brave" width="105px" />
                   </a>                      
-                  <a href="https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser4} alt="icône de edge" width="100px" />
+                  <a href="https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=fr" target="_blank" rel="noreferrer noopener">
+                    <img className="mx-1" src={browser4} alt="icône de edge" width="100px" />
                   </a>
                 </div>
-            </div>
+              </div>
           </div>
 
 {/*Paragraphe de code de la 4ème slide*/}
-          <div style={{position:"relative"}}>
+          <div style={{position:"relative", fontSize:"200%"}}>
               <img className="card-title4 img-fluid" src={Metamask4} alt="Se procurer des ETH de test"/>
-              <div style={{position:"absolute", top:"190px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
-                <p><b>Partie à venir</b></p>
+              <div style={{position:"absolute", top:"27%", left:"45%", height:"100%", overflow:"auto"}}>
+                <p className="me-5"><b>Pour en savoir plus sur la façon dont MetaMask fonctionne nous vous invitons à consulter ce lien :</b></p>
                 <p><b>Partie à venir</b></p>
             </div>
           </div>
