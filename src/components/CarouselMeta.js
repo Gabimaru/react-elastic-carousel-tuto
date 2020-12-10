@@ -16,12 +16,11 @@ import browser4 from "./../img/browserEdge.png"
 // Seul et unique fonction fléchée du compoent 'CarouselMeta'
 const CarouselMeta = () => {
   return (
-    <div className="container" >
-      <Carousel >
-
+    <div className="container">
+        <Carousel >
 {/*Paragraphe de code de la 1ère slide*/}
           <div style={{position:"relative"}}>
-              <img className="card-title1" src={Metamask1} alt="Prérequis à l'utilisation de la blockchain" />
+              <img className="card-title1 img-fluid" src={Metamask1} alt="Prérequis à l'utilisation de la blockchain" />
               <div style={{position:"absolute", top:"50px", left:"550px", width:"600px", height:"400px", fontSize:"200%"}}>
                 <p><b>Avant d'utiliser la blockchain, il nous faudra palier au coût généré par cette interaction.
                    Pour cela nous allons utiliser ce qu'on appelle un portefeuille numérique (wallet).</b></p>                
@@ -32,7 +31,7 @@ const CarouselMeta = () => {
 
 {/*Paragraphe de code de la 2ème slide*/}
           <div style={{position:"relative"}}>
-              <img className="card-title2" src={Metamask2} alt="Le wallet MetaMask"/>
+              <img className="card-title2 img-fluid" src={Metamask2} alt="Le wallet MetaMask"/>
               <div style={{position:"absolute", top:"150px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
                 <p><b>Pour nos premiers pas dans la blockchain, nous utiliserons le wallet : MetaMask.</b></p>                
                 <p><b>Nous reviendrons en détail sur son principe de fonctionnement plus tard. Installons le sans plus attendre.</b></p>
@@ -41,7 +40,7 @@ const CarouselMeta = () => {
 
 {/*Paragraphe de code de la 3ème slide*/}
           <div style={{position:"relative"}}>
-              <img className="card-title4" src={Metamask3} alt="Se procurer des ETH de test"/>
+              <img className="card-title3 img-fluid" src={Metamask3} alt="Se procurer des ETH de test"/>
               <div style={{position:"absolute", top:"30px", left:"220px", width:"525px", height:"400px", fontSize:"300%"}}>
                 <p className="pb-5"><b>METAMASK</b></p>
               </div>
@@ -70,15 +69,14 @@ const CarouselMeta = () => {
 
 {/*Paragraphe de code de la 4ème slide*/}
           <div style={{position:"relative"}}>
-              <img className="card-title4" src={Metamask4} alt="Se procurer des ETH de test"/>
+              <img className="card-title4 img-fluid" src={Metamask4} alt="Se procurer des ETH de test"/>
               <div style={{position:"absolute", top:"190px", left:"650px", width:"500px", height:"400px", fontSize:"200%"}}>
                 <p><b>Partie à venir</b></p>
                 <p><b>Partie à venir</b></p>
             </div>
           </div>
-
-    </Carousel>
-    </div>
+        </Carousel>
+      </div>
   );
 }
 
